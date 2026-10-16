@@ -1,0 +1,27 @@
+Package: rothRmel
+Type: Package
+Title: Rothermel Surface and Van Wagner Crown Fire Behavior from TLS Fuels
+Version: 0.1.0
+Authors@R:
+    person("Scott", "Pokswinski", email = "spokswinski@newmexicoconsortium.org",
+           role = c("aut", "cre"))
+Description: The fire behavior calculations behind the rothRmel tab of the
+    IntELiMon Decision Support Tool, as plain R functions. Estimates surface
+    fire spread and reaction intensity with the Rothermel (1972) model as
+    described by Andrews (2018), fireline intensity and flame length after
+    Byram (1959), crown fire initiation and active crown fire thresholds after
+    Van Wagner (1977), crown fire spread after Rothermel (1991), torching and
+    crowning indices after Scott and Reinhardt (2001), and downed woody fuel
+    loads from planar intersect counts after Brown (1974). Intended for change
+    tracking and treatment success with fuels derived from terrestrial laser
+    scanning (TLS), not for operational fire behavior prediction.
+License: CC0
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports: stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/spokswinski/rothRmel
+BugReports: https://github.com/spokswinski/rothRmel/issues
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.0.0
